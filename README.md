@@ -4,7 +4,7 @@ Projeto realizado durante as aulas na plataforma [Rockseat](https://app.rocketse
 <br>
 
 <p align="center">
-  <img alt="OriginSix" src=".github/preview-project.png" width="100%">
+  <img alt="OriginSix" src="https://github.com/vinadoti/Projeto-Origin-Six/blob/main/assets/preview-project.png?raw=true" width="100%">
 </p>
 
 ## 🚀 Tecnologias
