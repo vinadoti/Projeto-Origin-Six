@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nadoti Salon</title>
 
+    <!--ICONS-->
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
     <!--STYLES-->
     <link rel="stylesheet" href="style.css" />
 
@@ -21,11 +30,24 @@
     <header id="header">
       <nav class="container">
         <a class="logo" href="#">Nadoti<span>Salon</span>.</a>
-        <div class="menu">...</div>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </nav>
     </header>
 
     <main>
+      <!-- HOME -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -35,21 +57,244 @@
             />
           </div>
           <div class="text">
-            <h1>Saúde natural para os seus cabelos</h1>
+            <h2 class="title">Saúde natural para os seus cabelos</h2>
             <p>
               Um salão exclusivo em São José do Rio Preto, especializado em
               tratamentos naturais.
             </p>
-            <a class="button" href="#">Agendar um horário</a>
+            <a class="button" href="https://api.whatsapp.com/send?phone=+5517991296015&text=Olá!! Gostaria de agendar um horário." target="_blank">Agendar um horário </a>
           </div>
         </div>
       </section>
 
       <div class="divider-1"></div>
 
-      <section class="section">
-        <div class="container">outra sessão</div>
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1581404788767-726320400cea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
+              alt="mulheres realizando o atendimento em um salão de beleza"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+              <p>
+                <strong>NadotiSalon</strong> é uma equipe de profissionais da
+                beleza, que dão um show de qualidade nos serviços e
+                atendimentos. Toda
+                empresa é guiada por políticas e conceitos administrativos, para
+                ter serviços padrões e de alta qualidade. Todos da equipe passam
+                por treinamentos e avaliações. 
+              </p>
+              <br />
+              <p>
+                Nossa <strong>missão</strong> é oferecer os nossos serviços sempre da melhor forma. 
+                Nossa <strong>visão</strong> é organizar os atendimentos em geral, através de condutas empresariais, em busca de relacionar os serviços de beleza, em atendimentos personalizados a agenda do cliente. 
+                Nossos <strong>valores</strong> é respeitar os limites e saber sobre condutas profissionais. 
+              </p>
+              <br />
+          </div>
+        </div>
       </section>
+
+      <div class="divider-2"></div>
+
+      <!-- SERVICES -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p class="subtitle">
+              Com mais de 10 anos no mercado, o <strong>NadotiSalon</strong> já
+              conquistou clientes de inúmeras cidades da região com seus
+              tratamentos exclusivos e totalmente naturais!
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Terapia Capilar</h3>
+              <p>
+                A terapia capilar consiste em métodos de prevenção e de
+                tratamento de doenças relacionadas aos cabelos e ao couro
+                cabeludo, na tentativa de minimizar agressões externas e
+                corrigir eventuais desequilíbrios causados por procedimentos
+                químicos.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Cortes</h3>
+              <p>
+                O Corte de cabelo é o que define o estilo visual dos cabelos e
+                consequentemente, o estilo visual da pessoa. Acompanhar o design
+                do corte, com a personalidade da pessoa, torna a mesma mais
+                autentica e única, pois ela será representada por si mesma.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Tratamentos</h3>
+              <p>
+                Os principais tratamentos realizados são: Hidratação capilar,
+                nutrição, umectação, reconstrução, cauterização capilar,
+                cronograma capilar, limpeza do couro cabeludo, reconstituição
+                dos fios, lubrificação, hidratação do couro cabeludo, massagem,
+                peeling capilar e fotobioestimulação.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Só tenho a agradecer pelo excelente atendimento do NadotiSalon, minha autoestima nunca esteve tão forte haha <3
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/44.jpg"
+                      alt="Wanessa Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Com certeza o melhor salão que já fui. Resolveu meus problemas com a terapia capilar ! Gratidão
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/89.jpg"
+                      alt="Adriana Souza"
+                    />
+                    Adriana Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Sempre tive receio te ir no salão mas depois que fui no NadotiSalon percebi que não preciso mais ter medo, mudou minha vida, obrigada a equipe vocês foram incriveis, ganharam uma cliente !!
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/68.jpg"
+                      alt="Ana Laura"
+                    />
+                    Ana Laura
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Não sei o que falar, apenas sentir !! O melhor salão de todoooos, meu cabelo está maravilhoso. Recomendo de olhos fechados !!
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/8.jpg"
+                      alt="Camila Freitas"
+                    />
+                    Camila Freitas
+                  </cite>
+                </blockquote>
+              </div>
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- CONTACT -->
+
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente</h2>
+            <p>
+              Entre em contato com a <strong>NadotiSalon</strong>, queremos
+              tirar suas dúvidas, ouvir suas críticas e sugestões
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5517991296015&text=Olá!! Gostaria de agendar um horário."
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>17 99129-6015</li>
+              <li><i class="icon-map-pin"></i>R. Jardim Secreto, 256</li>
+              <li><i class="icon-mail"></i>vinadoti@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
     </main>
+
+    <!-- footer -->
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">Nadoti<span>Salon</span>.</a>
+          <p>©2021 NadotiSalon.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="social grid">
+          <a href="https://www.instagram.com/viviannadoti/" target="_blank">
+            <i class="icon-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/vivian.nadoti/" target="_blank">
+            <i class="icon-facebook"></i>
+          </a>
+          <a href="https://twitter.com/vinadoti" target="_blank">
+            <i class="icon-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
+    <script src="main.js"></script>
   </body>
 </html>
