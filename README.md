@@ -2,6 +2,7 @@
 
 Projeto realizado durante as aulas na plataforma [Rockseat](https://app.rocketseat.com.br/)
 <br>
+[Clique aqui](https://vinadoti.github.io/Projeto-Origin-Six/#home) para ver o preview do site 
 
 <p align="center">
   <img alt="OriginSix" src="https://github.com/vinadoti/Projeto-Origin-Six/blob/main/assets/preview-project.png?raw=true" width="100%">
